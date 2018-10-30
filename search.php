@@ -2,7 +2,9 @@
 
   <div class="content">
         <h1  class="text-centered space-below">Αποτελέσματα Αναζήτησης</h1>
-
+        <div class="search">
+              <?php get_search_form(); ?>
+        </div>
         <?php
 
 // Input field data sanitization

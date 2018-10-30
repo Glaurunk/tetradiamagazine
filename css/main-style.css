@@ -188,6 +188,23 @@ a.no-link {
 }
 
 
+a.nada-link {
+  font-size: 1.3em;
+  font-style: italic;
+  cursor: default;
+}
+
+
+a.nada-link:hover {
+  text-decoration: none;
+}
+
+
+a.nada-link:active {
+  background-color: #ddd;
+  color: #000;
+}
+
 /* ==========================
     Typography
 =============================*/
@@ -362,6 +379,10 @@ text-align: left;
 }
 
 
+.tags {
+  margin-top: 3px;
+}
+
 /* ==========================
     Images
 =============================*/
@@ -391,7 +412,7 @@ img.burger {
 h1.title {
     font-size: 12vw;
     font-weight: normal;
-    letter-spacing: 8px;
+    letter-spacing: 1.3vw;
     text-align: center;
     margin: -1px 0;
 }

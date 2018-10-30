@@ -42,11 +42,6 @@
 
           </div><!-- close flex-main -->
 
-<!-- Search Form container -->
-                    <div class="search">
-                              <?php get_search_form(); ?>
-                    </div><!-- close search -->
-
         </header>
 
 <!-- Menu Initialization -->

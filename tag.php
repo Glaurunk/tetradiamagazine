@@ -21,21 +21,30 @@
 
     $tag_query = new WP_Query ($args);
 
-     if ( $tag_query->have_posts() ) :
+            while ( $tag_query->have_posts() ) : $tag_query->the_post();
 
-            while ( $tag_query->have_posts() ) : $tag_query->the_post(); ?>
+              if  ( in_category('154')) :
+?>
+                  <p class="author"><?php coauthors_posts_links();?></p>
+                  <?php the_category(); ?>
+                  <a class="link-title tags" href="<?php the_permalink(); ?>" rel="bookmark" title="Permanent Link to <?php the_title_attribute(); ?>"><?php the_title(); ?></a>
+                  <p class="normal-p tags"><?php the_tags(); ?></p>
+                  <br>
+                  <br>
 
-            <p class="author"><?php coauthors_posts_links();?></p>
-            <?php the_category(); ?>
-            <a class="link-title" href="<?php the_permalink(); ?>" rel="bookmark" title="Permanent Link to <?php the_title_attribute(); ?>"><?php the_title(); ?></a>
-            <p class="normal-p"><?php the_tags(); ?></p>
-            <br>
-            <br>
+<?php        else :
+?>
+                  <p class="author"><?php coauthors_posts_links();?></p>
+                  <?php the_category(); ?>
+                  <p class="normal-p link-title tags"><?php the_title(); ?></p>
+                  <p class="normal-p tags"><?php the_tags(); ?></p>
+                  <br>
+                  <br>
 
-          <?php endwhile;
-            endif;
-          wp_reset_query();
-      ?>
+<?php        endif;
+             endwhile;
+             wp_reset_query();
+?>
 
 
 <?php get_footer(); ?>

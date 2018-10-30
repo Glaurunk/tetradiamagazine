@@ -31,7 +31,9 @@
             <a href="#ω">Ω</a> |
         </p>
     </div><!-- here ends index -->
+    
 
+    </div>
 
 
 <!-- Α -->

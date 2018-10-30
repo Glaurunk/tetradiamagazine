@@ -12,7 +12,7 @@
     }
 
     input[type=search], select {
-        width: 85%;
+        /* width: 85%; */
         padding: 8px 20px;
         display: inline-block;
         border: 1px solid black;
@@ -24,5 +24,5 @@
 
 <form class="space-below" role="search" method="get" action="<?php echo home_url('/'); ?>" >
       <input type="submit" name="submit" value="">
-      <input type="search" class="search-input" placeholder="Αναζήτηση με λέξεις-κλειδιά" value="<?php echo get_search_query(); ?> "name="s"  title="Search"/>
+      <input type="search" class="search-input" placeholder="Βάλτε λέξεις-κλειδιά" value="<?php echo get_search_query(); ?> "name="s"  title="Search"/>
 </form>

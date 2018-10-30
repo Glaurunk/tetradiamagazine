@@ -102,7 +102,8 @@ function authorsByLetter($letter) {
 <?php
 /*
 ==================================================================
-Get category by slug ==================================================================
+Get category by slug
+==================================================================
 */
 function category_by_slug() {
 // this part desiplays the issue number at the title
@@ -112,3 +113,7 @@ function category_by_slug() {
              $plain = substr($current_cat->slug, 5);
              echo $plain;}
 }
+
+
+
+ ?>
