@@ -12,7 +12,7 @@ We use two separate queries: one for the left column, to fetch the image and cat
               'category_name'  => $last_issue,
               'posts_per_page' => -1
       );
-// The Query
+// The First Query
       $first_query = new WP_Query( $args );
 
 // The First Loop to get the category id and url
@@ -25,7 +25,8 @@ We use two separate queries: one for the left column, to fetch the image and cat
       endwhile;
       wp_reset_query();
  ?>
-
+ 
+<!-- This is the commentary section below the h1-->
 <div class="content">
 
 

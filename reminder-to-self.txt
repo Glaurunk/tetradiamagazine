@@ -5,6 +5,7 @@ When an issue is being populated include its ID to the following pages:
 1. author.php
 2. category.php
 3. tag.php
+4. category-issueXX.php and all other children
 
 # When a new issue is being added I need to:
 1. treat the new issue as unpopulated (no links to its articles)

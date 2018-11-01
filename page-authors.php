@@ -30,10 +30,8 @@
             <a href="#ψ">Ψ</a> |
             <a href="#ω">Ω</a> |
         </p>
-    </div><!-- here ends index -->
-    
+    </div><!-- here ends letter space-below -->
 
-    </div>
 
 
 <!-- Α -->

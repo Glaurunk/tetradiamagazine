@@ -19,6 +19,9 @@
                     $url = z_taxonomy_image_url();
                 ?>
                     <img class="cover" src="<?php echo $url; ?>" alt="cover">
+                    <br>
+                    <h2>Β΄ Έκδοση, χειμώνας 1997</h2>
+                    <img class="cover" src="http://localhost:8888/wpTetradia/wp-content/uploads/2018/09/t17-18b.jpg" alt="cover 2n edition">
 
             </div><!-- close box-left -->
 
@@ -45,6 +48,7 @@
                             <br>
 
 <!-- close the loop -->
+
                   <?php endif;
                         endwhile;
                         wp_reset_query();
