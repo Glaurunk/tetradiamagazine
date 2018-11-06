@@ -10,7 +10,7 @@
                 </div><!-- close flex-left -->
 
                 <div class="flex-right">
-                  <p class="normal-p text-centered margin-top">Copyright <?php echo __('&copy;');?> <a href="http://www.stochastis.gr">Εκδόσεις Στοχαστής</a> <?php echo esc_html(date('Y')); ?> | Σχεδιασμός-υλοποίηση <a href="http://deepseacoding.com">deepSeaCoding.com</a></p>
+                  <p class="normal-p text-centered">Copyright <?php echo __('&copy;');?> <a href="http://www.stochastis.gr">Εκδόσεις Στοχαστής</a> <?php echo esc_html(date('Y')); ?> | Σχεδιασμός-υλοποίηση <a href="http://deepseacoding.com">deepSeaCoding.com</a></p>
                 </div><!-- close flex-right -->
 
               </div><!-- close flex-footer -->

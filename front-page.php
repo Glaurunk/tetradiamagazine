@@ -25,12 +25,12 @@ We use two separate queries: one for the left column, to fetch the image and cat
       endwhile;
       wp_reset_query();
  ?>
- 
+
 <!-- This is the commentary section below the h1-->
 <div class="content">
 
 
-      <h1 class="text-centered space-below">Αρχική Σελίδα</h1>
+      <h1 class="text-centered margin-bottom">Αρχική Σελίδα</h1>
       <div class="announcement">
           <p class="shown-always"> Καλώς ήρθατε στον δικτυακό τόπο του περιοδικού Τετράδια. Μέσα στις σελίδες αυτές θα βρείτε πληροφορίες για όλα τα τεύχη του περιοδικού και τους αρθρογράφους, ενώ σιγά-σιγά και ανάλογα με τους πόρους θα γίνονται διαθέσιμα σε ψηφιακή μορφή και τα άρθρα των τευχών του περιοδικού, από τα νεότερα προς τα παλαιότερα. </p>
           <p class="hidden">Το εκάστοτε τρέχον τεύχος θα αναρτάται μετά την κυκλοφορία του επόμενου. Στόχος μας είναι η πλήρης ψηφιοποίηση όλων των τευχών του περιοδικού και η δημιουργία ενός ολοκληρωμένου αρχείου. Ακολουθήστε μας στο <a href="https://www.facebook.com/Τετράδια-Πολιτικού-Διαλόγου-Έρευνας-και-Κριτικής-250982335013524/">Facebook</a> για να μένετε ενημερωμένοι για τις νέες ψηφιοποιήσεις. Οι ενδιαφερόμενοι μπορούν, επίσης, να αναζητήσουν τα "Τετράδια" στη <a href="http://pandemos.panteion.gr/index.php?lang=el&op=record&pid=cid:22">βάση δεδομένων "Πάνδημος"</a> του Παντείου Πανεπιστημίου, όπου υπάρχουν όλα τα άρθρα του περιοδικού μέχρι το τεύχος 61 σε μορφή pdf.</p>
@@ -44,13 +44,12 @@ We use two separate queries: one for the left column, to fetch the image and cat
       </div><!--close announcement -->
 
       <h2 class="text-centered">Τελευταίο τεύχος</h2>
-      <a href="http://localhost:8888/wpTetradia/category/<?php echo $last_issue; ?>/" class="link-h2"><h2 class="text-centered">τετράδιο 70-71 / χειμώνας 2017-ανοιξη 2018</h2></a>
-      <br>
+      <a href="http://localhost:8888/wpTetradia/category/<?php echo $last_issue; ?>/"><h3 class="text-centered">τετράδιο 70-71 / χειμώνας 2017-ανοιξη 2018</h3></a>
       <br>
 
       <div class="box-main">
 
-          <div class="box-left">
+          <div class="box-left margin-bottom">
 
               <a href="http://localhost:8888/wpTetradia/category/<?php echo $last_issue; ?>/"><img class="cover" src="http://localhost:8888/wpTetradia/wp-content/uploads/2018/08/t70-71.jpg" alt="cover" /></a>
           </div><!-- close box-left -->
@@ -82,7 +81,7 @@ We use two separate queries: one for the left column, to fetch the image and cat
               $author_url = get_author_posts_url($author);?>
 
  <!-- The output: co-authors' plus function for names and custom title diplay loop -->
-               <p class="author"><?php coauthors(); ?></p>
+               <p class="author"><a><?php coauthors_posts_links(); ?></a></p>
                <p class="link-title main-no-indent main-no-justify"><?php the_title(); ?></p>
                <br>
 

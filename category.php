@@ -4,7 +4,7 @@
 
     <div class="content">
 
-        <h1 class = "text-centered space-below">Περιεχόμενα Τεύχους
+        <h1 class = "text-centered margin-bottom">Περιεχόμενα Τεύχους
 <!-- Function to retrieve and post the current issue number -->
               <?php category_by_slug();?>
         </h1>
@@ -31,10 +31,8 @@
 // if the category has populated articles display them with links
             if ( in_category('154')) : ?>
 
-              <a><?php coauthors_posts_links(); ?></a>
-              <br>
-              <a class="link-title" href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>"><?php the_title(); ?></a>
-              <br>
+              <p class="author"><a><?php coauthors_posts_links(); ?></a></p>
+              <p class="link-title main-no-indent"><a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>"><?php the_title(); ?></a></p>
               <br>
 
 <?php       else :

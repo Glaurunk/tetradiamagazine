@@ -7,14 +7,14 @@
           <?php global $page;
 
           $args = array (
-'before'            => '<div class="page-links"><span class="page-links-title">' . __( 'Σελίδες:', 'averon' ) . '</span>',
-'after'             => '</div>',
+'before'            => '<div class="main-no-indent">',
+'after'             => '</div><br>',
 'link_before'       => '<span class="no">',
 'link_after'        => '</span>',
-'next_or_number'    => 'number',
+'next_or_number'    => 'next',
 'separator'         => ' | ',
-//'nextpagelink'      => __( 'Επόμενη'),
-//'previouspagelink'  => __( 'Προηγούμενη'),
+'nextpagelink'      => __( 'ΣΗΜΕΙΩΣΕΙΣ'),
+'previouspagelink'  => __( 'ΚΕΙΜΕΝΟ'),
 //'pagelink'          => __( '[%]')
 );
 
@@ -31,14 +31,15 @@
 
                       while (have_posts()) : the_post();?>
 
+                          <h2>ΣΗΜΕΙΩΣΕΙΣ</h2>
                           <p><?php the_content(); ?></p>
                           <br>
                           <br>
                           <?php wp_link_pages($args); ?>
-                          <p class="normal-p">πίσω στα περιεχόμενα:</p>
+                          <p class="tags">πίσω στα περιεχόμενα:</p>
                           <?php the_category();?>
 
-                          <p class="normal-p text-centered margin-top"><?php next_post_link('%link','[ Προηγούμενο άρθρο]',true); ?>
+                          <p class="pre-next"><?php next_post_link('%link','[ Προηγούμενο άρθρο]',true); ?>
                           <?php previous_post_link('%link','[ Επόμενο άρθρο]',true); ?></p>
 
               <?php endwhile; ?>

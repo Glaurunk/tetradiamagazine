@@ -8,46 +8,46 @@
 <div class="content">
 
 
-    <h1 class="text-centered space-below">Ταυτότητα Περιοδικού - Στοιχεία Επικοινωνίας</h1>
+    <h1 class="text-centered margin-bottom">Ταυτότητα Περιοδικού - Στοιχεία Επικοινωνίας</h1>
 
     <div class="contact-box">
-      <h2>Τετράδια πολιτικού διαλόγου έρευνας και κριτικής</h2>
+      <h3>Τετράδια πολιτικού διαλόγου έρευνας και κριτικής</h3>
       <p class="main-no-indent">Περίοδος πρώτη (1980-1983). Εκδότης: Ομάδα «Εργασία»<br>
          Περίοδος δεύτερη (1984- ). Εκδότης: Εκδόσεις «Στοχαστής»</p>
     </div>
 
 
     <div class="contact-box">
-      <h2>Έκδοση:</h2>
+      <h3>Έκδοση:</h3>
       <p class="main-no-indent">Εκδόσεις «Στοχαστής», Μαυρομιχάλη 39, τηλ. 210 3601956, φαξ 210 3610445, Αθήνα 106 80<br>
       <a href="http://www.stochastis.gr">www.stochastis.gr</a> • <a href="mailto:tetradia@stochastis.gr">tetradia@stochastis.gr</a></p>
     </div>
 
 
     <div class="contact-box">
-        <h2>Διεύθυνση:</h2>
+        <h3>Διεύθυνση:</h3>
         <p class="main-no-indent">Λουκάς Αξελός: <a href="mailto:loukas.axelos@gmail.com" >loukas.axelos@gmail.com</a> </p>
     </div>
 
     <div class="contact-box">
-        <h2>Γραμματεία:</h2>
+        <h3>Γραμματεία:</h3>
         <p class="main-no-indent">Βασίλης Ασημακόπουλος: <a href="mailto:#">asimakopoulos email</a> <br>
         Δημήτρης Δεληολάνης: <a href="mailto:deliolanes@libero.it" >deliolanes@libero.it</a> </p>
       </div>
 
     <div class="contact-box">
-        <h2>Συντακτική Επιτροπή:</h2>
+        <h3>Συντακτική Επιτροπή:</h3>
         <p class="main-no-indent">Μανόλης Αγγελίδης, Λουκάς Αξελός, Απόστολος Αποστολόπουλος, Βασίλης Ασημακόπουλος, Κώστας Βενιζέλος, Δημήτρης Δεληολάνης, Σταύρος Λυγερός, Δημήτρης Μπελαντής, Ηλίας Ι. Νικολόπουλος, Πέτρος Παπαπολυβίου, Ρούντι Ρινάλντι</p>
       </div>
 
     <div class="contact-box">
-        <h2>Τακτικοί Συνεργάτες:</h2>
+        <h3>Τακτικοί Συνεργάτες:</h3>
         <p class="main-no-indent">Χριστίνα Ανδρέου, Στάθης Ανδρέου, Μάριος Λ. Ευρυβιάδης</p>
       </div>
 
 
     <div class="contact-box">
-      <h2>ISSN 1105-512X</h2>
+      <h3>ISSN 1105-512X</h3>
     </div>
 
     <div class="contact-box">
@@ -55,14 +55,14 @@
     </div>
 
     <div class="contact-box">
-        <h2>Στοιχειοθεσία - Σελιδοποίηση:</h2>
+        <h3>Στοιχειοθεσία - Σελιδοποίηση:</h3>
         <p class="main-no-indent">Εκδόσεις Στοχαστής, Μαυρομιχάλη 39, Αθήνα 10680, τηλ. 2103601956, φαξ 2103610445,<br>
         <a href="mailto:info@stochastis.gr">info@stochastis.gr</a></p>
     </div>
 
 
     <div class="contact-box">
-      <h2>Εκτύπωση - Βιβλιοδεσία: </h2>
+      <h3>Εκτύπωση - Βιβλιοδεσία: </h3>
       <p class="main-no-indent">Zapolia Digital ΕΠΕ, Λ. Ηρακλείου 54, Άνω Πατήσια, τηλ. 210 2014114</p>
     </div>
 

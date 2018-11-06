@@ -2,9 +2,9 @@
 <div class="content">
 
 
-    <h1 class="text-centered space-below">Αλφαβητικό Ευρετήριο Αρθρογράφων</h1>
-    <div class="letter space-below">
-        <p class="index">
+    <h1 class="text-centered margin-bottom">Αλφαβητικό Ευρετήριο Αρθρογράφων</h1>
+    <div class="letter margin-bottom">
+        <p class="index main-no-indent">
             <a href="#α">A</a> |
             <a href="#β">Β</a> |
             <a href="#γ">Γ</a> |
@@ -30,12 +30,12 @@
             <a href="#ψ">Ψ</a> |
             <a href="#ω">Ω</a> |
         </p>
-    </div><!-- here ends letter space-below -->
+    </div><!-- here ends letter  -->
 
 
 
 <!-- Α -->
-    <div class="letter space-below">
+    <div class="letter margin-bottom">
         <h2 id="α">A</h2>
         <?php
               authorsByLetter(α);
@@ -44,7 +44,7 @@
     </div>
 
 <!-- B -->
-    <div class="letter space-below">
+    <div class="letter margin-bottom">
         <h2 id="β">Β</h2>
         <?php
               authorsByLetter(β);
@@ -53,7 +53,7 @@
     </div>
 
 <!-- Γ -->
-    <div class="letter space-below">
+    <div class="letter margin-bottom ">
       <h2 id="γ">Γ</h2>
       <?php
             authorsByLetter(γ);
@@ -62,7 +62,7 @@
     </div>
 
 <!-- Δ -->
-    <div class="letter space-below">
+    <div class="letter margin-bottom ">
       <h2 id="δ">Δ</h2>
       <?php
             authorsByLetter(δ);
@@ -71,7 +71,7 @@
     </div>
 
 <!-- Ε -->
-    <div class="letter space-below">
+    <div class="letter margin-bottom ">
       <h2 id="ε">Ε</h2>
       <?php
             authorsByLetter(ε);
@@ -80,7 +80,7 @@
     </div>
 
 <!-- Ζ -->
-    <div class="letter space-below">
+    <div class="letter margin-bottom ">
       <h2 id="ζ">Ζ</h2>
       <?php
             authorsByLetter(ζ);
@@ -89,7 +89,7 @@
     </div>
 
 <!-- Η -->
-    <div class="letter space-below">
+    <div class="letter margin-bottom ">
       <h2 id="η">Η</h2>
       <?php
             authorsByLetter(η);
@@ -98,7 +98,7 @@
     </div>
 
 <!-- Θ -->
-    <div class="letter space-below">
+    <div class="letter margin-bottom ">
       <h2 id="θ">Θ</h2>
       <?php
             authorsByLetter(θ);
@@ -107,7 +107,7 @@
     </div>
 
 <!-- Ι -->
-    <div class="letter space-below">
+    <div class="letter margin-bottom ">
         <h2 id="ι">Ι</h2>
         <?php
             authorsByLetter(ι);
@@ -116,7 +116,7 @@
     </div>
 
 <!-- Κ -->
-    <div class="letter space-below">
+    <div class="letter margin-bottom ">
         <h2 id="κ">Κ</h2>
         <?php
             authorsByLetter(κ);
@@ -125,7 +125,7 @@
     </div>
 
 <!-- Λ -->
-    <div class="letter space-below">
+    <div class="letter margin-bottom ">
         <h2 id="λ">Λ</h2>
         <?php
             authorsByLetter(λ);
@@ -134,7 +134,7 @@
     </div>
 
 <!-- Μ -->
-    <div class="letter space-below">
+    <div class="letter margin-bottom ">
         <h2 id="μ">Μ</h2>
         <?php
             authorsByLetter(μ);
@@ -143,7 +143,7 @@
     </div>
 
 <!-- Ν -->
-    <div class="letter space-below">
+    <div class="letter margin-bottom ">
         <h2 id="ν">Ν</h2>
         <?php
             authorsByLetter(ν);
@@ -152,7 +152,7 @@
     </div>
 
 <!-- Ξ -->
-    <div class="letter space-below">
+    <div class="letter margin-bottom ">
         <h2 id="ξ">Ξ</h2>
         <?php
             authorsByLetter(ξ);
@@ -161,7 +161,7 @@
     </div>
 
 <!-- Ο -->
-    <div class="letter space-below">
+    <div class="letter margin-bottom ">
         <h2 id="ο">Ο</h2>
         <?php
             authorsByLetter(ο);
@@ -170,7 +170,7 @@
     </div>
 
 <!-- Π -->
-    <div class="letter space-below">
+    <div class="letter margin-bottom ">
         <h2 id="π">Π</h2>
         <?php
             authorsByLetter(π);
@@ -179,7 +179,7 @@
     </div>
 
 <!-- Ρ -->
-    <div class="letter space-below">
+    <div class="letter margin-bottom ">
         <h2 id="ρ">Ρ</h2>
         <?php
             authorsByLetter(ρ);
@@ -188,7 +188,7 @@
     </div>
 
 <!-- Σ -->
-    <div class="letter space-below">
+    <div class="letter margin-bottom ">
         <h2 id="σ">Σ</h2>
         <?php
             authorsByLetter(σ);
@@ -197,7 +197,7 @@
     </div>
 
 <!-- Τ -->
-    <div class="letter space-below">
+    <div class="letter margin-bottom ">
         <h2 id="τ">Τ</h2>
         <?php
             authorsByLetter(τ);
@@ -206,7 +206,7 @@
     </div>
 
 <!-- Υ -->
-    <div class="letter space-below">
+    <div class="letter margin-bottom ">
         <h2 id="υ">Υ</h2>
         <?php
             authorsByLetter(υ);
@@ -215,7 +215,7 @@
     </div>
 
 <!-- Φ -->
-    <div class="letter space-below">
+    <div class="letter margin-bottom ">
         <h2 id="φ">Φ</h2>
         <?php
             authorsByLetter(φ);
@@ -224,7 +224,7 @@
     </div>
 
 <!-- Χ -->
-    <div class="letter space-below">
+    <div class="letter margin-bottom ">
         <h2 id="χ">Χ</h2>
         <?php
             authorsByLetter(χ);
@@ -233,7 +233,7 @@
     </div>
 
 <!-- Ψ -->
-    <div class="letter space-below">
+    <div class="letter margin-bottom ">
         <h2 id="ψ">Ψ</h2>
         <?php
             authorsByLetter(ψ);
@@ -242,7 +242,7 @@
     </div>
 
 <!-- Ω -->
-    <div class="letter space-below">
+    <div class="letter margin-bottom ">
         <h2 id="ω">Ω</h2>
         <?php
             authorsByLetter(ω);

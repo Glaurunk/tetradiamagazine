@@ -6,14 +6,14 @@ image template = books review template -->
     global $page;
 
     $args = array (
-    'before'            => '<div class="page-links"><span class="page-links-title">' . __( 'Σελίδες:', 'averon' ) . '</span>',
-    'after'             => '</div>',
-    'link_before'       => '<span class="no">',
-    'link_after'        => '</span>',
-    'next_or_number'    => 'number',
-    'separator'         => ' | ',
-    //'nextpagelink'      => __( 'Επόμενη'),
-    //'previouspagelink'  => __( 'Προηγούμενη'),
+      'before'            => '<div class="main-no-indent">',
+      'after'             => '</div><br>',
+      'link_before'       => '<span class="no">',
+      'link_after'        => '</span>',
+      'next_or_number'    => 'next',
+      'separator'         => ' | ',
+      'nextpagelink'      => __( 'ΣΗΜΕΙΩΣΕΙΣ'),
+      'previouspagelink'  => __( 'ΚΕΙΜΕΝΟ'),
     //'pagelink'          => __( '[%]')
     );
  ?>
@@ -21,7 +21,7 @@ image template = books review template -->
 
     <h1 class="text-centered space-below">ΒΙΒΛΙΟΠΑΡΟΥΣΙΑΣΗ</h1>
     <br>
-    <p class="normal-p"><?php the_tags(); ?></p>
+    <p class="tags main-no-indent"><?php the_tags(); ?></p>
     <h2 class="space-below"><?php coauthors(); ?></h1>
     <br>
     <h1 class="space-below text-centered"><?php the_title(); ?></h1>
@@ -33,5 +33,5 @@ image template = books review template -->
     <p class="normal-p">πίσω στα περιεχόμενα:</p>
     <?php the_category();?>
 
-    <p class="normal-p text-centered"><?php next_post_link('%link','[ Προηγούμενο άρθρο]',true); ?>
+    <p class="pre-next"><?php next_post_link('%link','[ Προηγούμενο άρθρο]',true); ?>
     <?php previous_post_link('%link','[ Επόμενο άρθρο]',true); ?></p>
