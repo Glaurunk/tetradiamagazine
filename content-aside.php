@@ -15,14 +15,21 @@ aside template = scripta manent template -->
       'previouspagelink'  => __( 'ΚΕΙΜΕΝΟ'),
     //'pagelink'          => __( '[%]')
     );
+
+// Set $carauth variable to include current author's meta
+         $curauth = (isset($_GET['author_name'])) ? get_user_by('slug', $author_name) : get_userdata(intval($author));
+         $id = $curauth->ID;
  ?>
+<!-- the output -->
 
 
     <h1 class="text-centered space-below">ΑΝΑΓΝΩΣΕΙΣ-SCRIPTA MANENT</h1>
     <br>
     <p class="tags main-no-indent"><?php the_tags(); ?></p>
     <h2 class="space-below"><?php coauthors(); ?></h1>
+    <h6><?php echo $curauth->user_description; ?></h6>
     <br>
+    <hr>
     <h1 class="space-below text-centered"><?php the_title(); ?></h1>
     <br>
     <p><?php the_content(); ?></p>

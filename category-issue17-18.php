@@ -27,12 +27,14 @@
 
             <div class="box-right">
 
-<!-- Run the Loop -->
+<!-- Run the Loop
+$cats var includes all the populated issues ids-->
               <?php
+                        $cats = array ('154','153','152','151','150','149','148','147');
                         while (have_posts()) : the_post();
 
 // if the category has populated articles display them with links
-                          if ( in_category('154')) : ?>
+                          if ( in_category($cats)) : ?>
 
                           <p class="author"><a><?php coauthors_posts_links(); ?></a></p>
                           <p class="link-title main-no-indent"><a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>"><?php the_title(); ?></a></p>
@@ -41,7 +43,7 @@
               <?php       else :
 // else without links. The authors still get their links :)
               ?>
-                            <a><?php coauthors_posts_links(); ?></a>
+                            <p class="author"><a><?php coauthors_posts_links(); ?></a></p>
                             <p class="link-title main-no-indent main-no-justify"><?php the_title(); ?></p>
                             <br>
 

@@ -18,14 +18,14 @@
 
 <!-- The Loop -->
 <?php
-
+      $cats = array ('154','153','152','151','150','149','148','147');
       while ( have_posts() ) : the_post();
-// In order to display links only to digitized articles we include only completed categories
-            if ( in_category('154')) :
+// In order to display links only to digitized articles we include only populated categories
+            if ( in_category($cats)) :
 ?>
         <li>
             <a class="link-title" href="<?php the_permalink(); ?>" rel="bookmark" title="Permanent Link: <?php the_title(); ?>">
-            <?php the_title(); ?>,</a>,
+            <?php the_title(); ?>,</a>
             <p class="issue-title"><?php the_category('&');?></p>
         </li>
 

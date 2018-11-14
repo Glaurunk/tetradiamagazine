@@ -1,4 +1,5 @@
-<!-- This is the single page first page markup -->
+<!-- This is the single page first page markup
+The original idea was to split long posts to many pages where the first would display the title and the others only text. The idea was abandoned because it causes problems with the footnotes numbering and is not practical in the end. The code remains though practically unused in case of change of mind-->
 <?php
 
     global $page;

@@ -126,7 +126,7 @@ Include Fonts
 
 @font-face {
   font-family: pfReg;
-  src: url(../fonts/pfBoldIt.ttf);
+  src: url(../fonts/pfbolditalic.ttf);
   font-weight: bold;
   font-style: italic;
 }
@@ -147,7 +147,7 @@ body{
     width: 95%;
     margin: 20px auto;
     overflow: hidden;
-    max-width: 1200px;
+    max-width: 1000px;
 }
 
 
@@ -257,6 +257,8 @@ h6 {
   font-weight: normal;
   text-align: justify;
   hyphens: auto;
+  margin: 0;
+  margin-top: 10px;
 }
 
 
@@ -265,6 +267,26 @@ sup {
   vertical-align: super;
   font-size: 12px;
   font-weight: bold;
+}
+
+
+ol {
+  font-size: 1.1em;
+  line-height: 1.3;
+  /* text-indent: 1em; */
+  hyphens: auto;
+  text-align: justify;
+  margin: 0 0 0 1em;
+}
+
+
+ul {
+  font-size: 1.1em;
+  line-height: 1.3;
+  /* text-indent: 1em; */
+  hyphens: auto;
+  text-align: justify;
+  margin: 0 0 0 1em;
 }
 
 
@@ -299,6 +321,11 @@ sup {
 }
 
 
+.margin-top-small {
+  margin-top: 10px;
+}
+
+
 .margin-bottom {
   margin-bottom: 35px;
 }
@@ -308,6 +335,7 @@ sup {
   text-indent: 0;
 }
 
+
 .tags {
   font-size: 1em;
 }
@@ -316,6 +344,58 @@ sup {
 .color-bordeaux {
   color: #8b0000;
 }
+
+
+.two-columns {
+  column-count: 1;
+}
+
+
+ul.bibliography li {
+  font-size: 1em;
+}
+
+
+
+/* ==========================
+    Table Press plugin CSS
+=============================*/
+
+
+.tablepress-table-name {
+  text-align: center;
+  font-size: 1.3em;
+}
+
+
+.tablepress,
+.tablepress tr,
+.tablepress tbody td,
+.tablepress thead th,
+.tablepress tfoot th {
+	border: 1px solid black;
+  text-align: center;
+}
+
+
+.tablepress td.column-1 {
+  text-align: left;
+  font-weight: bold;
+  font-size: 1.1em;
+}
+
+
+.tablepress tr.row-1 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.1em;
+}
+
+
+.tablepress .row-1 .column-1 {
+  text-align: center;
+}
+
 
 
 /* ==========================
@@ -339,7 +419,6 @@ img.burger {
 }
 
 
-
 /* ==========================
     Header
 =============================*/
@@ -354,7 +433,7 @@ h1.title {
 
 
 p.subtitle {
-  font-size: 2vw;
+  font-size: 1.8vw;
   letter-spacing: 3px;
   text-align: center;
   margin-bottom: 20px;
@@ -403,6 +482,7 @@ a:active.burger-link {
   border-top: double;
   margin-top: -1px;
   margin-bottom: 20px;
+  font-size: 1.0em;
 }
 
 
@@ -471,6 +551,7 @@ a:active.burger-link {
   color: black;
   font-weight: bold;
   text-indent: 0;
+  text-align: left;
 }
 
 
@@ -676,17 +757,19 @@ p.shown-always {
   text-align: center;
 }
 
+
+.index {
+  font-size: 20px;
+  text-align: center;
+  text-indent: 0;
+}
 /*
 a.author-link {
   font-size: 1.5em;
   line-height: 1.5;
 }
+*/
 
-.index {
-  font-size: 24px;
-  text-align: center;
-  text-indent: 0;
-} */
 
 
 
@@ -735,6 +818,8 @@ li.cat-item.cat-item-2.current-cat {
 
 ul.post-categories {
   list-style-type: none;
+  font-size: 1.1em;
+  margin: 0;
 }
 
 
@@ -753,6 +838,7 @@ footer {
   letter-spacing: 1px;
   padding: 10px 0;
   line-height: 2.5;
+  border-radius: 8px;
 }
 
 
@@ -849,6 +935,26 @@ img.fb-icon {
     font-weight: normal;
     text-align: justify;
     hyphens: auto;
+  }
+
+
+  ol {
+    font-size: 1.3em;
+    line-height: 1.3;
+    /* text-indent: 1.5em; */
+    hyphens: auto;
+    text-align: justify;
+    margin: 0 0 0 1em;
+  }
+
+
+  ul {
+    font-size: 1.3em;
+    line-height: 1.3;
+    /* text-indent: 1.5em; */
+    hyphens: auto;
+    text-align: justify;
+    margin: 0 0 0 1em;
   }
 
 
@@ -960,9 +1066,15 @@ img.fb-icon {
     }
 
 
+    a.author-link {
+      font-size: 1.3em;
+      line-height: 1.5;
+    }
+
     .link-title {
       font-size: 1.3em;
       font-style: italic;
+      text-align: left;
     }
 
 
@@ -974,6 +1086,23 @@ img.fb-icon {
 
     a.nada-link {
       font-size: 1.3em;
+    }
+
+
+    .two-columns {
+      column-count: 2;
+    }
+
+
+    /* ul.bibliography li {
+      font-size: 1.0em;
+    } */
+
+
+    .index {
+      font-size: 24px;
+      text-align: center;
+      text-indent: 0;
     }
 
 
@@ -997,17 +1126,14 @@ img.fb-icon {
 
 
   p.subtitle {
-    font-size: 24px;
+    font-size: 22px;
     letter-spacing: 3px;
     text-align: center;
     margin-bottom: 30px;
   }
 
 
-  .index {
-    font-size: 2vw;
-    text-align: center;
-    text-indent: 0;
+  .two-columns {
+    column-count: 3;
   }
-
 }

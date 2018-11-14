@@ -2,7 +2,7 @@
 <div class="content">
 
 
-    <h1 class="text-centered margin-bottom">Αλφαβητικό Ευρετήριο Αρθρογράφων</h1>
+    <h1 class="text-centered margin-bottom">Αλφαβητικό Ευρετήριο Αρθρογράφων *</h1>
     <div class="letter margin-bottom">
         <p class="index main-no-indent">
             <a href="#α">A</a> |
@@ -30,7 +30,12 @@
             <a href="#ψ">Ψ</a> |
             <a href="#ω">Ω</a> |
         </p>
-    </div><!-- here ends letter  -->
+      </div><!-- here ends letter  -->
+
+
+      <div class="letter margin-bottom">
+            <p class="main-no-indent">* ΣΗΜΕΙΩΣΗ: Οι πληροφορίες για τους συγγραφείς αφορούν την περίοδο συγγραφής των πιο προσφάτων κειμένων τους. Για τυχόν διορθώσεις ή/και συμπληρώσεις οι ενδιαφερόμενοι μπορούν να απευθύνονται στη γραματεία του περιοδικού στο <a href="mailto:tetradia@stochastis.gr">tetradia@stochastis.gr</a></p>
+      </div><!-- here ends letter  -->
 
 
 
