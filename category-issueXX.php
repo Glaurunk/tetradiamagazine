@@ -27,7 +27,7 @@
 <!-- Run the Loop
 $cats var includes all the populated issues ids-->
               <?php
-                        $cats = array ('154','153','152','151','150','149','148','147');
+//                        $cats = array ('154','153','152','151','150','149','148','147');
                         while (have_posts()) : the_post();
 
 // if the category has populated articles display them with links
@@ -56,32 +56,12 @@ $cats var includes all the populated issues ids-->
         </div><!-- close box-main -->
 
         <div class="pre-next">
-<?php
-// this part retrieves the previous and next categories by ID
-        if(is_category()) {
-          $cat = get_query_var('cat');
-          $current_cat = get_category($cat);
-          $id = $current_cat->cat_ID;
+<!-- The pre-next buttons. Since it is a specific page the links are fixed :) Just change XX to issue number -->
+                  <div class="pre-next">
 
-          if ($id == 97) {
-            $pre = 154;
-          } else {
-            $pre = $id - 1;
-          }
+                      <a class="button-link" href="http://localhost:8888/wpTetradia/category/issueXX">Προηγούμενο</a>
+                      <a class="button-link" href="http://localhost:8888/wpTetradia/category/issueXX">Επόμενο</a>
 
-          if ($id == 154) {
-            $next = 97;
-          } else {
-            $next = $id + 1;
-          }
-
-          $pre_cat = get_category_link( $pre );
-          $next_cat = get_category_link( $next );
-
-    }
- ?>
-            <a class="button-link" href="<?php echo $pre_cat; ?>/">Προηγούμενο</a>
-            <a class="button-link" href="<?php echo $next_cat; ?>/">Επόμενο</a>
 
 
         </div><!-- close pre-next -->

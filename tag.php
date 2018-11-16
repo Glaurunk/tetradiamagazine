@@ -12,7 +12,7 @@
     <h1 class="text-centered space-below">Ετικέτα: <?php print_r (single_tag_title()); ?></h1>
 
 <?php
-    $cats = array ('154','153','152','151','150','149','148','147');
+//    $cats = array ('154','153','152','151','150','149','148','147');
     $args = array(
             'posts_per_page' => -1,
             'author' => -1,

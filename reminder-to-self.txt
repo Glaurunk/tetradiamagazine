@@ -1,12 +1,9 @@
 Reminders to self for updating the site
 
 # Until all articles are populated there must be no links to non-populated ones.
-When an issue is being populated include its ID to the following pages:
-1. author.php
-2. category.php
-3. tag.php
-4. category-issueXX.php and all other children
+When an issue is being populated include its ID to the $cats array in functions.php
 
 # When a new issue is being added I need to:
-1. treat the new issue as unpopulated (no links to its articles)
-2. Update the $last_issue at front-page.php
+1. treat the new issue as unpopulated (no links to its articles / NOT include it in $cats)
+2. Update the $last_issue at front-page.php as well as the other info at the same page.
+3. Add at all the category pages the new issue at the pre-next sequence and correct issue1 to display the last issue at pre

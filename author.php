@@ -18,7 +18,7 @@
 
 <!-- The Loop -->
 <?php
-      $cats = array ('154','153','152','151','150','149','148','147');
+//      $cats = array ('154','153','152','151','150','149','148','147');
       while ( have_posts() ) : the_post();
 // In order to display links only to digitized articles we include only populated categories
             if ( in_category($cats)) :

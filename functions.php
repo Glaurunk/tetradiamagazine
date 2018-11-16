@@ -117,5 +117,18 @@ function category_by_slug() {
 
 
  ?>
+ <?php
+ /*
+ ==================================================================
+ Some global variables
+ $cats is for pages
+     1. author.php
+     2. category.php
+     3. tag.php
+     4. category-issueXX.php and all other children
+ ==================================================================
+ */
 
- 
+$cats = array ('154','153','152','151','150','149','148','147');
+
+?>
