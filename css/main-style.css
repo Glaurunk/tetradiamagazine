@@ -46,7 +46,15 @@ nav ul {
 
 blockquote, q {
     quotes:none;
+    padding-left: 10%;
+    text-indent: 0;
 }
+
+blockquote p {
+    text-indent: 0;
+    font-size: 1.1em;
+}
+
 
 blockquote:before, blockquote:after,
 q:before, q:after {

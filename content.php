@@ -20,7 +20,7 @@ The original idea was to split long posts to many pages where the first would di
 
 
     <p class="tags main-no-indent"><?php the_tags(); ?></p>
-    <h2 class="space-below"><?php coauthors(); ?></h2>
+    <p class="authors space-below main-no-indent margin-top-small"><?php coauthors_posts_links(); ?></p>
     <br>
     <h1 class="space-below text-centered"><?php the_title(); ?></h1>
     <br>
