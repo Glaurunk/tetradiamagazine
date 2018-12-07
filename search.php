@@ -2,7 +2,7 @@
 
   <div class="content">
         <h1  class="text-centered space-below">Αποτελέσματα Αναζήτησης</h1>
-        <div class="search">
+        <div class="search space-below">
               <?php get_search_form(); ?>
         </div>
         <?php

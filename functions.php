@@ -79,17 +79,13 @@ function authorsByLetter($letter) {
 
 // User Loop
           if ( ! empty( $user_query->get_results() ) ) {
-              foreach ( $user_query->get_results() as $user ) {
+              foreach ( $user_query->get_results() as $user ) { ?>
 
-                echo "<a href=\"".get_bloginfo('url')."/?author=";
-                echo $user->ID;
-                echo "\">";
-                echo "</a>";
-                echo "<a class='author-link' href=\"".get_bloginfo('url')."/?author=";
-                echo $user->ID;
-                echo "\">";
-                the_author_meta('display_name', $user->ID);
-                echo "</a><br>";
+                  <a class="author-link" href="http://localhost:8888/wpTetradia/author/<?php echo $user->user_nicename ?>"><?php the_author_meta('display_name', $user->ID); ?></a>
+                   <br>
+
+<?php
+
               }
           } else {
                   echo 'Δεν υπάρχουν καταχωρήσεις.';

@@ -25,4 +25,7 @@
 <form class="space-below" role="search" method="get" action="<?php echo home_url('/'); ?>" >
       <input type="submit" name="submit" value="">
       <input type="search" class="search-input" placeholder="Βάλτε λέξεις-κλειδιά" value="<?php echo get_search_query(); ?> "name="s"  title="Search"/>
+      <br>
+      <br>
+      <br>
 </form>
