@@ -1,5 +1,5 @@
 # tetradiamagazine
-The official website for "Tetradia" magazine
+The custom WordPress theme for the official website of the <a href="https://tetradiamagazine.gr">"Tetradia" magazine</a>
 
 <p>This is my very first project after learning the basics in the Web Stack. I decided to experiment with Wordpress because it is the most famous CMS and mostly because I didn't where else to start from!</p>
 <p>The task was huge for my none-existant skills. I had to create a digital library for a printed political magazine. That means I had to work with categories, multiple authors, a huge number of footnotes, strict typography, great number of posts, indeces etc. First, I tried to modify an existing theme. It didn't work and needless to say it was a hard lesson. So I devided to create a wordpress theme from scratch, designed specifically for the needs of my project. It was a nightmare. I've spent hours and hours reading the documentation, trying to understand the php etc. I think I've hit each and every restriction and limitation of the Wordpress framework, trying to micromanage every single detail. Needless to say it is not the tool's fault but mine.p>
